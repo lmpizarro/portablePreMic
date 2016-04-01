@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 01 Apr 2016 11:49:08 AM ART
+EESchema Schematic File Version 2  date Fri 01 Apr 2016 11:59:19 AM ART
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,9 +44,92 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 1700 4350
-Connection ~ 1700 3600
+Connection ~ 6900 4150
+Connection ~ 6950 3500
+Connection ~ 6950 3000
+Connection ~ 6850 3000
+Wire Wire Line
+	6950 3000 6400 3000
+Wire Wire Line
+	6850 3000 6850 3700
+Wire Wire Line
+	6850 3700 6100 3700
+Connection ~ 6400 3000
+Wire Wire Line
+	6400 4350 6400 4450
+Wire Wire Line
+	5400 2900 5400 2250
+Wire Wire Line
+	5400 2250 5550 2250
+Connection ~ 2700 2800
+Wire Wire Line
+	2700 3350 2700 2800
+Wire Wire Line
+	3900 4350 2700 4350
+Wire Wire Line
+	2200 4350 1500 4350
+Wire Wire Line
+	3400 3300 3400 3450
+Wire Wire Line
+	3400 3300 3650 3300
+Wire Wire Line
+	4900 4250 4900 3700
+Wire Wire Line
+	4900 3700 4550 3700
+Wire Wire Line
+	3900 3000 3900 3450
+Wire Wire Line
+	3900 3450 4050 3450
+Connection ~ 5400 3700
+Connection ~ 5400 2900
+Connection ~ 5400 3100
+Wire Wire Line
+	5400 3100 5400 4250
+Wire Wire Line
+	5700 3700 5400 3700
+Wire Wire Line
+	4550 3450 4900 3450
+Wire Wire Line
+	4900 3450 4900 2900
+Wire Wire Line
+	4050 3700 3900 3700
+Wire Wire Line
+	3900 3700 3900 4150
+Wire Wire Line
+	3400 3450 3000 3450
+Wire Wire Line
+	3000 3450 3000 3700
+Wire Wire Line
+	1500 2800 2200 2800
+Wire Wire Line
+	2700 2800 3900 2800
+Wire Wire Line
+	1700 3850 1700 3300
+Wire Wire Line
+	2700 4350 2700 3750
+Connection ~ 2700 4350
+Wire Wire Line
+	6050 2250 6400 2250
+Wire Wire Line
+	6400 2250 6400 3000
+Wire Wire Line
+	1200 3600 1200 3750
 Connection ~ 1700 2800
+Connection ~ 1700 3600
+Connection ~ 1700 4350
+Wire Wire Line
+	6900 4150 6950 4150
+Wire Wire Line
+	6950 4150 6950 3500
+$Comp
+L R R?
+U 1 1 56FE8C82
+P 5650 4250
+F 0 "R?" V 5730 4250 50  0000 C CNN
+F 1 "R" V 5650 4250 50  0000 C CNN
+	1    5650 4250
+	0    -1   -1   0   
+$EndComp
 $Comp
 L PWR_FLAG #FLG01
 U 1 1 56FE8A32
@@ -95,10 +178,10 @@ $EndComp
 $Comp
 L CONN_1 P3
 U 1 1 56FE8A00
-P 7000 3000
-F 0 "P3" H 7080 3000 40  0000 L CNN
-F 1 "CONN_1" H 7000 3055 30  0001 C CNN
-	1    7000 3000
+P 7100 3000
+F 0 "P3" H 7180 3000 40  0000 L CNN
+F 1 "CONN_1" H 7100 3055 30  0001 C CNN
+	1    7100 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -110,74 +193,6 @@ F 1 "GND" H 1200 3680 30  0001 C CNN
 	1    1200 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 3600 1200 3750
-Wire Wire Line
-	6400 2250 6400 3000
-Wire Wire Line
-	6400 2250 6050 2250
-Connection ~ 2700 4350
-Wire Wire Line
-	2700 3750 2700 4350
-Wire Wire Line
-	1700 3300 1700 3850
-Wire Wire Line
-	3900 2800 2700 2800
-Wire Wire Line
-	2200 2800 1500 2800
-Wire Wire Line
-	3000 3700 3000 3450
-Wire Wire Line
-	3000 3450 3400 3450
-Wire Wire Line
-	3900 4150 3900 3700
-Wire Wire Line
-	3900 3700 4050 3700
-Wire Wire Line
-	4900 2900 4900 3450
-Wire Wire Line
-	4900 3450 4550 3450
-Wire Wire Line
-	5700 3700 5400 3700
-Wire Wire Line
-	6400 4150 6400 3500
-Wire Wire Line
-	5400 4250 5400 3100
-Connection ~ 6400 3500
-Connection ~ 5400 3100
-Connection ~ 5400 2900
-Connection ~ 5400 3700
-Wire Wire Line
-	6100 3700 6400 3700
-Connection ~ 6400 3700
-Wire Wire Line
-	6400 3000 6850 3000
-Wire Wire Line
-	4050 3450 3900 3450
-Wire Wire Line
-	3900 3450 3900 3000
-Wire Wire Line
-	4550 3700 4900 3700
-Wire Wire Line
-	4900 3700 4900 4250
-Wire Wire Line
-	3650 3300 3400 3300
-Wire Wire Line
-	3400 3300 3400 3450
-Wire Wire Line
-	1500 4350 2200 4350
-Wire Wire Line
-	2700 4350 3900 4350
-Wire Wire Line
-	2700 2800 2700 3350
-Connection ~ 2700 2800
-Wire Wire Line
-	5550 2250 5400 2250
-Wire Wire Line
-	5400 2250 5400 2900
-Wire Wire Line
-	6400 4350 6400 4450
-Connection ~ 6400 3000
 $Comp
 L GND #PWR05
 U 1 1 56FE89D1
@@ -199,10 +214,10 @@ $EndComp
 $Comp
 L TL074 U1
 U 4 1 56FE7262
-P 5900 4250
-F 0 "U1" H 5950 4450 60  0000 C CNN
-F 1 "TL074" H 6050 4050 50  0000 C CNN
-	4    5900 4250
+P 6400 4250
+F 0 "U1" H 6450 4450 60  0000 C CNN
+F 1 "TL074" H 6550 4050 50  0000 C CNN
+	4    6400 4250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -361,10 +376,10 @@ $EndComp
 $Comp
 L R R12
 U 1 1 56FD5D1B
-P 6400 3250
-F 0 "R12" V 6480 3250 50  0000 C CNN
-F 1 "R" V 6400 3250 50  0000 C CNN
-	1    6400 3250
+P 6950 3250
+F 0 "R12" V 7030 3250 50  0000 C CNN
+F 1 "R" V 6950 3250 50  0000 C CNN
+	1    6950 3250
 	-1   0    0    1   
 $EndComp
 $Comp
