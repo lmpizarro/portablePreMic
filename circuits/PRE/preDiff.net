@@ -1,138 +1,111 @@
-# EESchema Netlist Version 1.1 created  Fri 01 Apr 2016 11:00:04 AM ART
+# EESchema Netlist Version 1.1 created  Fri 01 Apr 2016 11:50:09 AM ART
 (
- ( /56FE7850 CP4 C1 100u
-  ( 1 VCC )
-  ( 2 GND )
+ ( /56FD5FC2 CP4 C1 C
+  ( 1 N-000018 )
+  ( 2 N-000017 )
  )
- ( /56FE7790 C1 C2 1500p
-  ( 1 N-000003 )
-  ( 2 GND )
- )
- ( /56FE78E3 $noname$ C3 330u
-  ( 1 N-000007 )
-  ( 2 GND )
- )
- ( /56FE7902 $noname$ C4 100u
-  ( 1 N-000008 )
-  ( 2 GND )
- )
- ( /56FE75DD $noname$ D1 1n4148
-  ( 1 N-000011 )
-  ( 2 N-000010 )
- )
- ( /56FE76D3 $noname$ D2 1n4148
-  ( 1 N-000001 )
-  ( 2 N-000007 )
- )
- ( /56FE757B $noname$ L1 222uH
-  ( 1 N-000009 )
-  ( 2 N-000007 )
- )
- ( /56FE78F2 $noname$ L2 1uH
-  ( 1 N-000007 )
-  ( 2 N-000008 )
- )
- ( /56FE7BBF $noname$ P1 CONN_1
+ ( /56FD5F43 C1 C2 CP
   ( 1 N-000013 )
- )
- ( /56FE7BB3 $noname$ P2 CONN_1
-  ( 1 N-000014 )
- )
- ( /56FE7D39 $noname$ P3 CONN_1
-  ( 1 N-000008 )
- )
- ( /56FE7D72 $noname$ P4 CONN_1
-  ( 1 GND )
- )
- ( /56FE7D76 $noname$ P5 CONN_1
-  ( 1 VCC )
- )
- ( /56FE75FC TO92 Q1 BC557
-  ( 1 GND )
-  ( 2 N-000011 )
-  ( 3 N-000010 )
- )
- ( /56FE76C9 $noname$ Q2 IRF630
-  ( D N-000001 )
-  ( G N-000010 )
-  ( S GND )
- )
- ( /56FE7508 $noname$ R1 0.5
-  ( 1 VCC )
-  ( 2 N-000009 )
- )
- ( /56FE7525 $noname$ R2 0.5
-  ( 1 VCC )
-  ( 2 N-000009 )
- )
- ( /56FE787F $noname$ R3 180
-  ( 1 N-000009 )
-  ( 2 N-000004 )
- )
- ( /56FE75E4 $noname$ R4 R
-  ( 1 N-000011 )
-  ( 2 GND )
- )
- ( /56FE77C2 $noname$ R5 475K
-  ( 1 N-000007 )
-  ( 2 /OFB )
- )
- ( /56FE77C8 $noname$ R6 13K7
-  ( 1 /OFB )
-  ( 2 GND )
- )
- ( /56FE7B8C $noname$ R7 220
-  ( 1 N-000008 )
   ( 2 N-000012 )
  )
- ( /56FE7B97 $noname$ R8 6k8
-  ( 1 N-000012 )
+ ( /56FD5F65 $noname$ C3 C
+  ( 1 N-000010 )
+  ( 2 N-000024 )
+ )
+ ( /56FE8A08 $noname$ P1 CONN_1
+  ( 1 N-000019 )
+ )
+ ( /56FE8A10 $noname$ P2 CONN_1
+  ( 1 N-000020 )
+ )
+ ( /56FE8A00 $noname$ P3 CONN_1
+  ( 1 N-000022 )
+ )
+ ( /56FD5FEC $noname$ R1 R
+  ( 1 GND )
+  ( 2 N-000021 )
+ )
+ ( /56FD5FD8 $noname$ R2 R
+  ( 1 N-000021 )
+  ( 2 N-000019 )
+ )
+ ( /56FD5FE4 $noname$ R3 R
+  ( 1 N-000020 )
+  ( 2 N-000021 )
+ )
+ ( /56FD6061 $noname$ R4 R
+  ( 1 N-000019 )
+  ( 2 N-000017 )
+ )
+ ( /56FD6067 $noname$ R5 R
+  ( 1 N-000020 )
+  ( 2 N-000018 )
+ )
+ ( /56FD5F7F $noname$ R6 R
+  ( 1 N-000016 )
   ( 2 N-000013 )
  )
- ( /56FE7BA0 $noname$ R9 6k8
-  ( 1 N-000012 )
-  ( 2 N-000014 )
- )
- ( /56FE74DA $noname$ U1 MC34063
-  ( 1 N-000007 )
+ ( /56FD5EF5 $noname$ R7 R
+  ( 1 N-000015 )
   ( 2 N-000011 )
-  ( 3 N-000003 )
-  ( 4 GND )
-  ( 5 /OFB )
-  ( 6 VCC )
-  ( 7 N-000009 )
-  ( 8 N-000004 )
+ )
+ ( /56FD5EEB $noname$ R8 R
+  ( 1 N-000012 )
+  ( 2 N-000001 )
+ )
+ ( /56FD5CA8 $noname$ R9 R
+  ( 1 N-000011 )
+  ( 2 N-000008 )
+ )
+ ( /56FD5CB0 $noname$ R10 R
+  ( 1 N-000001 )
+  ( 2 N-000010 )
+ )
+ ( /56FE8981 $noname$ R11 10K
+  ( 1 N-000008 )
+  ( 2 N-000022 )
+ )
+ ( /56FD5D1B $noname$ R12 R
+  ( 1 N-000024 )
+  ( 2 N-000022 )
+ )
+ ( /56FD5F90 $noname$ RV1 POT
+  ( 1 N-000016 )
+  ( 2 N-000016 )
+  ( 3 N-000015 )
+ )
+ ( /56FE7262 $noname$ U1 TL074
+  ( 1 N-000011 )
+  ( 2 N-000015 )
+  ( 3 N-000017 )
+  ( 4 VCC )
+  ( 5 N-000018 )
+  ( 6 N-000012 )
+  ( 7 N-000001 )
+  ( 8 N-000022 )
+  ( 9 N-000008 )
+  ( 10 N-000010 )
+  ( 11 VDD )
+  ( 12 GND )
+  ( 13 N-000024 )
+  ( 14 N-000010 )
  )
 )
 *
 { Allowed footprints by component:
 $component C1
- CP*
- SM*
-$endlist
-$component C2
  SM*
  C?
  C1-1
 $endlist
+$component C2
+ CP*
+ SM*
+$endlist
 $component C3
- CP*
  SM*
-$endlist
-$component C4
- CP*
- SM*
-$endlist
-$component D1
- D?
- S*
-$endlist
-$component D2
- D?
- S*
-$endlist
-$component Q1
- TO92*
+ C?
+ C1-1
 $endlist
 $component R1
  R?
@@ -191,6 +164,27 @@ $component R8
  SM1206
 $endlist
 $component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
  R?
  SM0603
  SM0805
