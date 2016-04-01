@@ -1,0 +1,201 @@
+# EESchema Netlist Version 1.1 created  Fri 01 Apr 2016 11:00:04 AM ART
+(
+ ( /56FE7850 CP4 C1 100u
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /56FE7790 C1 C2 1500p
+  ( 1 N-000003 )
+  ( 2 GND )
+ )
+ ( /56FE78E3 $noname$ C3 330u
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /56FE7902 $noname$ C4 100u
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /56FE75DD $noname$ D1 1n4148
+  ( 1 N-000011 )
+  ( 2 N-000010 )
+ )
+ ( /56FE76D3 $noname$ D2 1n4148
+  ( 1 N-000001 )
+  ( 2 N-000007 )
+ )
+ ( /56FE757B $noname$ L1 222uH
+  ( 1 N-000009 )
+  ( 2 N-000007 )
+ )
+ ( /56FE78F2 $noname$ L2 1uH
+  ( 1 N-000007 )
+  ( 2 N-000008 )
+ )
+ ( /56FE7BBF $noname$ P1 CONN_1
+  ( 1 N-000013 )
+ )
+ ( /56FE7BB3 $noname$ P2 CONN_1
+  ( 1 N-000014 )
+ )
+ ( /56FE7D39 $noname$ P3 CONN_1
+  ( 1 N-000008 )
+ )
+ ( /56FE7D72 $noname$ P4 CONN_1
+  ( 1 GND )
+ )
+ ( /56FE7D76 $noname$ P5 CONN_1
+  ( 1 VCC )
+ )
+ ( /56FE75FC TO92 Q1 BC557
+  ( 1 GND )
+  ( 2 N-000011 )
+  ( 3 N-000010 )
+ )
+ ( /56FE76C9 $noname$ Q2 IRF630
+  ( D N-000001 )
+  ( G N-000010 )
+  ( S GND )
+ )
+ ( /56FE7508 $noname$ R1 0.5
+  ( 1 VCC )
+  ( 2 N-000009 )
+ )
+ ( /56FE7525 $noname$ R2 0.5
+  ( 1 VCC )
+  ( 2 N-000009 )
+ )
+ ( /56FE787F $noname$ R3 180
+  ( 1 N-000009 )
+  ( 2 N-000004 )
+ )
+ ( /56FE75E4 $noname$ R4 R
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /56FE77C2 $noname$ R5 475K
+  ( 1 N-000007 )
+  ( 2 /OFB )
+ )
+ ( /56FE77C8 $noname$ R6 13K7
+  ( 1 /OFB )
+  ( 2 GND )
+ )
+ ( /56FE7B8C $noname$ R7 220
+  ( 1 N-000008 )
+  ( 2 N-000012 )
+ )
+ ( /56FE7B97 $noname$ R8 6k8
+  ( 1 N-000012 )
+  ( 2 N-000013 )
+ )
+ ( /56FE7BA0 $noname$ R9 6k8
+  ( 1 N-000012 )
+  ( 2 N-000014 )
+ )
+ ( /56FE74DA $noname$ U1 MC34063
+  ( 1 N-000007 )
+  ( 2 N-000011 )
+  ( 3 N-000003 )
+  ( 4 GND )
+  ( 5 /OFB )
+  ( 6 VCC )
+  ( 7 N-000009 )
+  ( 8 N-000004 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component Q1
+ TO92*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,232 @@
+PCBNEW-BOARD Version 1 date Fri 01 Apr 2016 11:00:46 AM ART
+
+# Created by Pcbnew(2012-apr-16-27)-stable
+
+$GENERAL
+encoding utf-8
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 1FFF8001
+Links 2
+NoConn 2
+Di -2751 -2590 7721 3971
+Ndraw 0
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 3
+Nnets 6
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title ""
+Date "1 apr 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 80
+TrackClearence 100
+ZoneClearence 200
+TrackMinWidth 80
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 350
+ViaDrill 250
+ViaMinSize 350
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 1 "GND"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 2 "N-000003"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 3 "N-000010"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 4 "N-000011"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 5 "VCC"
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 100
+TrackWidth 80
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet ""
+AddNet "GND"
+AddNet "N-000003"
+AddNet "N-000010"
+AddNet "N-000011"
+AddNet "VCC"
+$EndNCLASS
+$MODULE TO92
+Po 6500 -250 0 15 443CFFD1 56FE7EFA ~~
+Li TO92
+Cd Transistor TO92 brochage type BC237
+Kw TR TO92
+Sc 56FE7EFA
+AR /56FE75FC
+Op 0 0 0
+T0 -500 1500 400 400 0 80 N V 21 N "Q1"
+T1 -500 -2000 400 400 0 80 N V 21 N "BC557"
+DS -500 1000 1000 -500 120 21
+DS 1000 -500 1000 -1000 120 21
+DS 1000 -1000 500 -1500 120 21
+DS 500 -1500 -500 -1500 120 21
+DS -500 -1500 -1500 -500 120 21
+DS -1500 -500 -1500 500 120 21
+DS -1500 500 -1000 1000 120 21
+DS -1000 1000 -500 1000 120 21
+$PAD
+Sh "1" R 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 500 -500
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 4 "N-000011"
+Po -500 -500
+$EndPAD
+$PAD
+Sh "3" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 3 "N-000010"
+Po -500 500
+$EndPAD
+$SHAPE3D
+Na "discret/to98.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  TO92
+$MODULE CP4
+Po 0 0 0 15 00200000 56FE7F0F ~~
+Li CP4
+Cd Condensateur polarise
+Kw CP
+Sc 56FE7F0F
+AR /56FE7850
+Op 0 0 0
+T0 200 0 500 550 0 100 N V 21 N "C1"
+T1 200 0 500 450 0 100 N I 21 N "100u"
+DS 2000 0 1600 0 120 21
+DS 1600 0 1600 400 120 21
+DS 1600 400 -1400 400 120 21
+DS -1400 400 -1400 -400 120 21
+DS -1400 -400 1600 -400 120 21
+DS 1600 -400 1600 0 120 21
+DS -2000 0 -1600 0 120 21
+DS -1400 200 -1600 200 120 21
+DS -1600 200 -1600 -200 120 21
+DS -1600 -200 -1400 -200 120 21
+$PAD
+Sh "1" R 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 5 "VCC"
+Po -2000 0
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 2000 0
+$EndPAD
+$SHAPE3D
+Na "discret/c_pol.wrl"
+Sc 0.400000 0.400000 0.400000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  CP4
+$MODULE C1
+Po -1500 3250 0 15 3F92C496 56FE7EFC ~~
+Li C1
+Cd Condensateur e = 1 pas
+Kw C
+Sc 56FE7EFC
+AR /56FE7790
+Op 0 0 0
+T0 100 -900 400 400 0 80 N V 21 N "C2"
+T1 0 -900 400 400 0 80 N I 21 N "1500p"
+DS -980 -500 1000 -500 120 21
+DS 1000 -500 1000 500 120 21
+DS 1000 500 -1000 500 120 21
+DS -1000 500 -1000 -500 120 21
+DS -1000 -250 -750 -500 120 21
+$PAD
+Sh "1" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 2 "N-000003"
+Po -500 0
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 500 0
+$EndPAD
+$SHAPE3D
+Na "discret/capa_1_pas.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  C1
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD

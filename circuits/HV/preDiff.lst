@@ -1,0 +1,59 @@
+eeschema (2012-apr-16-27)-stable  >> Creation date: Fri 01 Apr 2016 10:58:54 AM ART
+
+#Cmp ( order = Reference )
+| C1         100u        
+| C2         1500p       
+| C3         330u        
+| C4         100u        
+| D1         1n4148      
+| D2         1n4148      
+| L1         222uH       
+| L2         1uH         
+| P1         CONN_1      
+| P2         CONN_1      
+| P3         CONN_1      
+| P4         CONN_1      
+| P5         CONN_1      
+| Q1         BC557       
+| Q2         IRF630      
+| R1         0.5         
+| R2         0.5         
+| R3         180         
+| R4         R           
+| R5         475K        
+| R6         13K7        
+| R7         220         
+| R8         6k8         
+| R9         6k8         
+| U1         MC34063     
+#End Cmp
+
+#Cmp ( order = Value )
+| 0.5          R1        
+| 0.5          R2        
+| 100u         C1        
+| 100u         C4        
+| 13K7         R6        
+| 1500p        C2        
+| 180          R3        
+| 1n4148       D1        
+| 1n4148       D2        
+| 1uH          L2        
+| 220          R7        
+| 222uH        L1        
+| 330u         C3        
+| 475K         R5        
+| 6k8          R8        
+| 6k8          R9        
+| BC557        Q1        
+| CONN_1       P1        
+| CONN_1       P2        
+| CONN_1       P3        
+| CONN_1       P4        
+| CONN_1       P5        
+| IRF630       Q2        
+| MC34063      U1        
+| R            R4        
+#End Cmp
+
+#End List

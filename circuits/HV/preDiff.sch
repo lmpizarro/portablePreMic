@@ -1,0 +1,291 @@
+EESchema Schematic File Version 2  date Fri 01 Apr 2016 10:16:50 AM ART
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:preDiff-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "1 apr 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 2700 4350
+Wire Wire Line
+	2700 3750 2700 4350
+Wire Wire Line
+	1700 3300 1700 3850
+Wire Wire Line
+	3900 2800 2700 2800
+Wire Wire Line
+	2200 2800 1500 2800
+Wire Wire Line
+	3000 3700 3000 3450
+Wire Wire Line
+	3000 3450 3400 3450
+Wire Wire Line
+	3900 4150 3900 3700
+Wire Wire Line
+	3900 3700 4050 3700
+Wire Wire Line
+	4900 2900 4900 3450
+Wire Wire Line
+	4900 3450 4550 3450
+Wire Wire Line
+	5700 3700 5400 3700
+Wire Wire Line
+	6400 4150 6400 3500
+Wire Wire Line
+	5400 4250 5400 3100
+Connection ~ 6400 3500
+Connection ~ 5400 3100
+Connection ~ 5400 2900
+Connection ~ 5400 3700
+Wire Wire Line
+	6100 3700 6400 3700
+Connection ~ 6400 3700
+Wire Wire Line
+	6400 3000 6850 3000
+Wire Wire Line
+	4050 3450 3900 3450
+Wire Wire Line
+	3900 3450 3900 3000
+Wire Wire Line
+	4550 3700 4900 3700
+Wire Wire Line
+	4900 3700 4900 4250
+Wire Wire Line
+	3650 3300 3400 3300
+Wire Wire Line
+	3400 3300 3400 3450
+Wire Wire Line
+	1500 4350 2200 4350
+Wire Wire Line
+	2700 4350 3900 4350
+Wire Wire Line
+	2700 2800 2700 3350
+Connection ~ 2700 2800
+$Comp
+L TL074 U?
+U 1 1 56FE7262
+P 5900 4250
+F 0 "U?" H 5950 4450 60  0000 C CNN
+F 1 "TL074" H 6050 4050 50  0000 C CNN
+	1    5900 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L TL074 U?
+U 1 1 56FE725F
+P 5900 3000
+F 0 "U?" H 5950 3200 60  0000 C CNN
+F 1 "TL074" H 6050 2800 50  0000 C CNN
+	1    5900 3000
+	1    0    0    1   
+$EndComp
+$Comp
+L TL074 U?
+U 1 1 56FE725B
+P 4400 4250
+F 0 "U?" H 4450 4450 60  0000 C CNN
+F 1 "TL074" H 4550 4050 50  0000 C CNN
+	1    4400 4250
+	1    0    0    1   
+$EndComp
+$Comp
+L TL074 U?
+U 1 1 56FE7221
+P 4400 2900
+F 0 "U?" H 4450 3100 60  0000 C CNN
+F 1 "TL074" H 4550 2700 50  0000 C CNN
+	1    4400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 56FE7200
+P 5800 2600
+F 0 "#PWR?" H 5800 2700 30  0001 C CNN
+F 1 "VDD" H 5800 2710 30  0000 C CNN
+	1    5800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 56FE70C7
+P 4300 2500
+F 0 "#PWR?" H 4300 2600 30  0001 C CNN
+F 1 "VCC" H 4300 2600 30  0000 C CNN
+	1    4300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 56FD6067
+P 2450 4350
+F 0 "R?" V 2530 4350 50  0000 C CNN
+F 1 "R" V 2450 4350 50  0000 C CNN
+	1    2450 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 56FD6061
+P 2450 2800
+F 0 "R?" V 2530 2800 50  0000 C CNN
+F 1 "R" V 2450 2800 50  0000 C CNN
+	1    2450 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 56FD5FEC
+P 1450 3600
+F 0 "R?" V 1530 3600 50  0000 C CNN
+F 1 "R" V 1450 3600 50  0000 C CNN
+	1    1450 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 56FD5FE4
+P 1700 4100
+F 0 "R?" V 1780 4100 50  0000 C CNN
+F 1 "R" V 1700 4100 50  0000 C CNN
+	1    1700 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 56FD5FD8
+P 1700 3050
+F 0 "R?" V 1780 3050 50  0000 C CNN
+F 1 "R" V 1700 3050 50  0000 C CNN
+	1    1700 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 56FD5FC2
+P 2700 3550
+F 0 "C?" H 2750 3650 50  0000 L CNN
+F 1 "C" H 2750 3450 50  0000 L CNN
+	1    2700 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L POT RV?
+U 1 1 56FD5F90
+P 3650 3450
+F 0 "RV?" H 3650 3350 50  0000 C CNN
+F 1 "POT" H 3650 3450 50  0000 C CNN
+	1    3650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 56FD5F7F
+P 3250 3700
+F 0 "R?" V 3330 3700 50  0000 C CNN
+F 1 "R" V 3250 3700 50  0000 C CNN
+	1    3250 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 56FD5F65
+P 5900 3700
+F 0 "C?" H 5950 3800 50  0000 L CNN
+F 1 "C" H 5950 3600 50  0000 L CNN
+	1    5900 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C?
+U 1 1 56FD5F43
+P 3700 3700
+F 0 "C?" H 3750 3800 50  0000 L CNN
+F 1 "CP" H 3750 3600 50  0000 L CNN
+	1    3700 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 56FD5EF5
+P 4300 3450
+F 0 "R?" V 4380 3450 50  0000 C CNN
+F 1 "R" V 4300 3450 50  0000 C CNN
+	1    4300 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 56FD5EEB
+P 4300 3700
+F 0 "R?" V 4380 3700 50  0000 C CNN
+F 1 "R" V 4300 3700 50  0000 C CNN
+	1    4300 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 56FD5D1B
+P 6400 3250
+F 0 "R?" V 6480 3250 50  0000 C CNN
+F 1 "R" V 6400 3250 50  0000 C CNN
+	1    6400 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 56FD5CB0
+P 5150 4250
+F 0 "R?" V 5230 4250 50  0000 C CNN
+F 1 "R" V 5150 4250 50  0000 C CNN
+	1    5150 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 56FD5CA8
+P 5150 2900
+F 0 "R?" V 5230 2900 50  0000 C CNN
+F 1 "R" V 5150 2900 50  0000 C CNN
+	1    5150 2900
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
