@@ -1,0 +1,101 @@
+eeschema (2012-apr-16-27)-stable  >> Creation date: Sat 02 Apr 2016 03:46:41 PM ART
+
+#Cmp ( order = Reference )
+| C1         1n          
+| C2         470u        
+| C3         CP          
+| C4         100p        
+| C5         100p        
+| C6         CP          
+| C7         CP          
+| C8         CP          
+| C11        CP          
+| C12        CP          
+| C13        CP          
+| C14        CP          
+| C15        CP          
+| C16        100p        
+| D1         DIODE       
+| D2         DIODE       
+| D3         DIODE       
+| D4         DIODE       
+| D5         DIODE       
+| D6         DIODE       
+| K1         CONN_3      
+| K2         CONN_3      
+| P1         CONN_1      
+| P2         CONN_1      
+| P4         CONN_1      
+| P5         CONN_1      
+| P6         CONN_1      
+| P7         CONN_1      
+| P8         CONN_1      
+| P9         CONN_1      
+| P10        CONN_1      
+| P11        CONN_1      
+| P12        CONN_4      
+| R1         10          
+| R2         R           
+| R3         R           
+| R4         10          
+| R5         6k8         
+| R6         100         
+| R14        R           
+| R15        R           
+| R16        R           
+| R17        6k8         
+| R18        R           
+| R19        47k         
+| RV1        10K         
+#End Cmp
+
+#Cmp ( order = Value )
+| 10           R1        
+| 10           R4        
+| 100          R6        
+| 100p         C4        
+| 100p         C5        
+| 100p         C16       
+| 10K          RV1       
+| 1n           C1        
+| 470u         C2        
+| 47k          R19       
+| 6k8          R5        
+| 6k8          R17       
+| CONN_1       P1        
+| CONN_1       P2        
+| CONN_1       P4        
+| CONN_1       P5        
+| CONN_1       P6        
+| CONN_1       P7        
+| CONN_1       P8        
+| CONN_1       P9        
+| CONN_1       P10       
+| CONN_1       P11       
+| CONN_3       K1        
+| CONN_3       K2        
+| CONN_4       P12       
+| CP           C3        
+| CP           C6        
+| CP           C7        
+| CP           C8        
+| CP           C11       
+| CP           C12       
+| CP           C13       
+| CP           C14       
+| CP           C15       
+| DIODE        D1        
+| DIODE        D2        
+| DIODE        D3        
+| DIODE        D4        
+| DIODE        D5        
+| DIODE        D6        
+| R            R2        
+| R            R3        
+| R            R14       
+| R            R15       
+| R            R16       
+| R            R18       
+#End Cmp
+
+#End List
