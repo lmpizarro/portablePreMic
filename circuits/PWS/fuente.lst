@@ -1,0 +1,115 @@
+eeschema (2012-apr-16-27)-stable  >> Creation date: Wed 06 Apr 2016 12:40:37 PM ART
+
+#Cmp ( order = Reference )
+| C1         1000u 50v   
+| C2         1000u 50v   
+| C3         1000u 50v   
+| C4         1000u 50v   
+| C5         0.1u        
+| C6         0.1u        
+| C7         10u 25v     
+| C8         10u 25v     
+| C9         1u 25v      
+| C10        1u 25v      
+| C11        0.1u        
+| C12        0.1u        
+| C13        10u 16v     
+| C14        10u 16v     
+| C15        1u 16v      
+| C16        1u 16v      
+| C17        0.1u        
+| C18        10u 16v     
+| C19        1u 16v      
+| D1         1n4007      
+| D2         1n4007      
+| D3         1n4007      
+| D4         1n4007      
+| D5         1n4007      
+| D6         1n4007      
+| D7         1n4007      
+| D8         1n4007      
+| D9         1n4007      
+| D10        1n4007      
+| D11        1n4007      
+| D12        1n4007      
+| D13        1n4007      
+| D14        1n4007      
+| D15        1n4007      
+| D16        1n4007      
+| K1         CONN_3      
+| P1         CONN_5      
+| R1         3k9         
+| R2         3k9         
+| R3         330         
+| R4         330         
+| R5         2k2         
+| R6         2k2         
+| R7         330         
+| R8         330         
+| R9         1k          
+| R10        330         
+| T1         TRANSFO_3   
+| U1         LM317       
+| U2         LM337       
+| U3         LM317       
+| U4         LM337       
+| U5         LM317       
+#End Cmp
+
+#Cmp ( order = Value )
+| 0.1u         C5        
+| 0.1u         C6        
+| 0.1u         C11       
+| 0.1u         C12       
+| 0.1u         C17       
+| 1000u 50v    C1        
+| 1000u 50v    C2        
+| 1000u 50v    C3        
+| 1000u 50v    C4        
+| 10u 16v      C13       
+| 10u 16v      C14       
+| 10u 16v      C18       
+| 10u 25v      C7        
+| 10u 25v      C8        
+| 1k           R9        
+| 1n4007       D1        
+| 1n4007       D2        
+| 1n4007       D3        
+| 1n4007       D4        
+| 1n4007       D5        
+| 1n4007       D6        
+| 1n4007       D7        
+| 1n4007       D8        
+| 1n4007       D9        
+| 1n4007       D10       
+| 1n4007       D11       
+| 1n4007       D12       
+| 1n4007       D13       
+| 1n4007       D14       
+| 1n4007       D15       
+| 1n4007       D16       
+| 1u 16v       C15       
+| 1u 16v       C16       
+| 1u 16v       C19       
+| 1u 25v       C9        
+| 1u 25v       C10       
+| 2k2          R5        
+| 2k2          R6        
+| 330          R3        
+| 330          R4        
+| 330          R7        
+| 330          R8        
+| 330          R10       
+| 3k9          R1        
+| 3k9          R2        
+| CONN_3       K1        
+| CONN_5       P1        
+| LM317        U1        
+| LM317        U3        
+| LM317        U5        
+| LM337        U2        
+| LM337        U4        
+| TRANSFO_3    T1        
+#End Cmp
+
+#End List

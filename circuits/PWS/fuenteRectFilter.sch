@@ -1,0 +1,286 @@
+EESchema Schematic File Version 2  date Wed 06 Apr 2016 03:06:54 PM ART
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:fuente-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "6 apr 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR?
+U 1 1 57054EFB
+P 5700 3200
+F 0 "#PWR?" H 5700 3200 30  0001 C CNN
+F 1 "GND" H 5700 3130 30  0001 C CNN
+	1    5700 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 3050
+Wire Wire Line
+	5700 3050 5700 3200
+Wire Wire Line
+	6750 2650 6950 2650
+Wire Wire Line
+	6950 2650 7400 2650
+Wire Wire Line
+	5550 3750 5550 3450
+Wire Wire Line
+	5550 3450 5550 3150
+Wire Wire Line
+	5550 3150 5100 3150
+Wire Wire Line
+	5100 2950 5550 2950
+Wire Wire Line
+	5550 2950 5550 2650
+Wire Wire Line
+	5550 2650 5550 2400
+Wire Wire Line
+	6250 3350 6950 3350
+Wire Wire Line
+	6950 3350 6950 3050
+Connection ~ 7000 3950
+Connection ~ 6250 3950
+Connection ~ 6950 2650
+Connection ~ 6550 4550
+Wire Wire Line
+	6250 4350 6250 4550
+Wire Wire Line
+	6550 4700 6550 4550
+Connection ~ 6050 3750
+Wire Wire Line
+	6050 2400 6050 3750
+Wire Wire Line
+	6050 3750 6050 3950
+Wire Wire Line
+	5950 3450 5950 2650
+Wire Wire Line
+	6050 2400 5950 2400
+Wire Wire Line
+	5950 3750 6050 3750
+Connection ~ 5950 2650
+Connection ~ 5950 2400
+Connection ~ 5950 3450
+Connection ~ 5550 2650
+Connection ~ 5550 2400
+Connection ~ 5550 3450
+Connection ~ 5550 3750
+Connection ~ 5950 3750
+Connection ~ 6250 2650
+Connection ~ 6300 3150
+Connection ~ 6250 3150
+Wire Wire Line
+	6250 3450 6250 3350
+Wire Wire Line
+	6250 3350 6250 3150
+Wire Wire Line
+	6250 3150 6250 3050
+Connection ~ 6250 3350
+Wire Wire Line
+	5950 2650 6250 2650
+Wire Wire Line
+	7000 4350 7000 4550
+Wire Wire Line
+	7000 4550 6550 4550
+Wire Wire Line
+	6550 4550 6250 4550
+Wire Wire Line
+	6050 3950 6250 3950
+Wire Wire Line
+	5100 3050 5700 3050
+Wire Wire Line
+	5700 3050 5700 3050
+Wire Wire Line
+	7400 2650 7400 2950
+Wire Wire Line
+	7400 3150 7400 3950
+Wire Wire Line
+	7400 3950 7000 3950
+Wire Wire Line
+	7000 3950 6750 3950
+Wire Wire Line
+	7400 3050 7100 3050
+Wire Wire Line
+	7100 3050 7100 3200
+$Comp
+L GND #PWR?
+U 1 1 57054EF4
+P 7100 3200
+F 0 "#PWR?" H 7100 3200 30  0001 C CNN
+F 1 "GND" H 7100 3130 30  0001 C CNN
+	1    7100 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K2
+U 1 1 57054EA1
+P 7750 3050
+F 0 "K2" V 7700 3050 50  0000 C CNN
+F 1 "CONN_3" V 7800 3050 40  0000 C CNN
+	1    7750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 570549C5
+P 6500 3950
+F 0 "R2" V 6580 3950 50  0000 C CNN
+F 1 "R" V 6500 3950 50  0000 C CNN
+	1    6500 3950
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 570549BF
+P 6500 2650
+F 0 "R1" V 6580 2650 50  0000 C CNN
+F 1 "R" V 6500 2650 50  0000 C CNN
+	1    6500 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C2
+U 1 1 57052B76
+P 6250 4150
+F 0 "C2" H 6300 4250 50  0000 L CNN
+F 1 "1000u 50v" H 6300 4050 50  0000 L CNN
+	1    6250 4150
+	1    0    0    1   
+$EndComp
+$Comp
+L CP C3
+U 1 1 57052B72
+P 6950 2850
+F 0 "C3" H 7000 2950 50  0000 L CNN
+F 1 "1000u 50v" H 7000 2750 50  0000 L CNN
+	1    6950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 57052803
+P 6550 4700
+F 0 "#PWR3" H 6550 4700 30  0001 C CNN
+F 1 "GND" H 6550 4630 30  0001 C CNN
+	1    6550 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CP C4
+U 1 1 570527D6
+P 7000 4150
+F 0 "C4" H 7050 4250 50  0000 L CNN
+F 1 "1000u 50v" H 7050 4050 50  0000 L CNN
+	1    7000 4150
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_3 K1
+U 1 1 57050E4C
+P 4750 3050
+F 0 "K1" V 4700 3050 50  0000 C CNN
+F 1 "CONN_3" V 4800 3050 40  0000 C CNN
+	1    4750 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG1
+U 1 1 57050DD9
+P 6250 3150
+F 0 "#FLG1" H 6250 3245 30  0001 C CNN
+F 1 "PWR_FLAG" H 6250 3330 30  0000 C CNN
+	1    6250 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 57050B16
+P 6250 3450
+F 0 "#PWR2" H 6250 3450 30  0001 C CNN
+F 1 "GND" H 6250 3380 30  0001 C CNN
+	1    6250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C1
+U 1 1 57050B06
+P 6250 2850
+F 0 "C1" H 6300 2950 50  0000 L CNN
+F 1 "1000u 50v" H 6300 2750 50  0000 L CNN
+	1    6250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D4
+U 1 1 57050A86
+P 5750 3750
+F 0 "D4" H 5750 3850 40  0000 C CNN
+F 1 "1n4007" H 5750 3650 40  0000 C CNN
+	1    5750 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 57050A7E
+P 5750 2400
+F 0 "D1" H 5750 2500 40  0000 C CNN
+F 1 "1n4007" H 5750 2300 40  0000 C CNN
+	1    5750 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D2
+U 1 1 57050A72
+P 5750 2650
+F 0 "D2" H 5750 2750 40  0000 C CNN
+F 1 "1n4007" H 5750 2550 40  0000 C CNN
+	1    5750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D3
+U 1 1 57050A68
+P 5750 3450
+F 0 "D3" H 5750 3550 40  0000 C CNN
+F 1 "1n4007" H 5750 3350 40  0000 C CNN
+	1    5750 3450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

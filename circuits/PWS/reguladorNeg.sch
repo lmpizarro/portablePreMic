@@ -1,0 +1,279 @@
+EESchema Schematic File Version 2  date Wed 06 Apr 2016 03:50:32 PM ART
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "6 apr 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 3550 3350
+Connection ~ 3550 3150
+Connection ~ 7150 3350
+Connection ~ 7150 3150
+Connection ~ 6950 3150
+Connection ~ 6550 4050
+Connection ~ 3900 3650
+Connection ~ 4150 3650
+Wire Wire Line
+	4150 3650 3550 3650
+Connection ~ 3900 3150
+Wire Wire Line
+	3550 3150 4150 3150
+Wire Wire Line
+	5800 3550 6550 3550
+Wire Wire Line
+	4550 3650 5400 3650
+Wire Wire Line
+	4950 2800 4950 3150
+Wire Wire Line
+	4950 2800 4800 2800
+Connection ~ 6550 3150
+Connection ~ 4950 3650
+Wire Wire Line
+	4150 4150 4150 3550
+Wire Wire Line
+	6550 3550 6550 4150
+Wire Wire Line
+	4150 3150 4150 2800
+Wire Wire Line
+	4150 2800 4400 2800
+Connection ~ 6550 3550
+Wire Wire Line
+	5400 3550 5400 3750
+Connection ~ 5400 3650
+Wire Wire Line
+	3550 3650 3550 3350
+Wire Wire Line
+	4950 3150 7150 3150
+Wire Wire Line
+	7150 3350 7150 4050
+Wire Wire Line
+	7150 4050 6550 4050
+Connection ~ 6950 4050
+$Comp
+L R R?
+U 1 1 570551A6
+P 6950 3400
+F 0 "R?" V 7030 3400 50  0000 C CNN
+F 1 "R" V 6950 3400 50  0000 C CNN
+	1    6950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 570551A0
+P 6950 3850
+F 0 "D?" H 6950 3950 50  0000 C CNN
+F 1 "LED" H 6950 3750 50  0000 C CNN
+	1    6950 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57055167
+P 3900 3400
+F 0 "R?" V 3980 3400 50  0000 C CNN
+F 1 "10k" V 3900 3400 50  0000 C CNN
+	1    3900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 57054DDC
+P 7500 3250
+F 0 "P?" V 7450 3250 40  0000 C CNN
+F 1 "CONN_2" V 7550 3250 40  0000 C CNN
+	1    7500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 57054DCA
+P 3200 3250
+F 0 "P?" V 3150 3250 40  0000 C CNN
+F 1 "CONN_2" V 3250 3250 40  0000 C CNN
+	1    3200 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57054D2C
+P 4950 4150
+F 0 "#PWR?" H 4950 4150 30  0001 C CNN
+F 1 "GND" H 4950 4080 30  0001 C CNN
+	1    4950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57054D24
+P 4950 3900
+F 0 "R?" V 5030 3900 50  0000 C CNN
+F 1 "3k9" V 4950 3900 50  0000 C CNN
+	1    4950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57054CD6
+P 5800 3350
+F 0 "C?" H 5850 3450 50  0000 L CNN
+F 1 "0.1u" H 5850 3250 50  0000 L CNN
+	1    5800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 57054CC9
+P 6200 3350
+F 0 "D?" H 6200 3450 40  0000 C CNN
+F 1 "1n4148" H 6200 3250 40  0000 C CNN
+	1    6200 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C6
+U 1 1 57052B0F
+P 4150 3350
+F 0 "C6" H 4200 3450 50  0000 L CNN
+F 1 "0.1u" H 4200 3250 50  0000 L CNN
+	1    4150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 57051A39
+P 4150 4150
+F 0 "#PWR02" H 4150 4150 30  0001 C CNN
+F 1 "GND" H 4150 4080 30  0001 C CNN
+	1    4150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 57051A35
+P 4550 4150
+F 0 "#PWR03" H 4550 4150 30  0001 C CNN
+F 1 "GND" H 4550 4080 30  0001 C CNN
+	1    4550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 57051A31
+P 5400 4150
+F 0 "#PWR04" H 5400 4150 30  0001 C CNN
+F 1 "GND" H 5400 4080 30  0001 C CNN
+	1    5400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 57051A2E
+P 6550 4150
+F 0 "#PWR05" H 6550 4150 30  0001 C CNN
+F 1 "GND" H 6550 4080 30  0001 C CNN
+	1    6550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C10
+U 1 1 57051959
+P 6550 3350
+F 0 "C10" H 6600 3450 50  0000 L CNN
+F 1 "1u 25v" H 6600 3250 50  0000 L CNN
+	1    6550 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R4
+U 1 1 57051958
+P 4950 3400
+F 0 "R4" V 5030 3400 50  0000 C CNN
+F 1 "330" V 4950 3400 50  0000 C CNN
+	1    4950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 57051957
+P 4550 3900
+F 0 "R2" V 4630 3900 50  0000 C CNN
+F 1 "3k9" V 4550 3900 50  0000 C CNN
+	1    4550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C8
+U 1 1 57051956
+P 5400 3950
+F 0 "C8" H 5450 4050 50  0000 L CNN
+F 1 "10u 25v" H 5450 3850 50  0000 L CNN
+	1    5400 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D8
+U 1 1 57051955
+P 5400 3350
+F 0 "D8" H 5400 3450 40  0000 C CNN
+F 1 "1n4148" H 5400 3250 40  0000 C CNN
+	1    5400 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE D6
+U 1 1 57051954
+P 4600 2800
+F 0 "D6" H 4600 2900 40  0000 C CNN
+F 1 "1n4007" H 4600 2700 40  0000 C CNN
+	1    4600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM317 U2
+U 1 1 57051953
+P 4550 3300
+F 0 "U2" H 4550 3600 60  0000 C CNN
+F 1 "LM337" H 4600 3050 60  0000 L CNN
+	1    4550 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
